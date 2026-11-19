@@ -12,7 +12,7 @@ services:
         value: nosniff
       - path: /css/*
         name: Cache-Control
-        value: public, max-age=86400
+        value: public, max-age=300
       - path: /js/*
         name: Cache-Control
-        value: public, max-age=86400
+        value: public, max-age=300
