@@ -9,8 +9,8 @@ const SCHOOL = {
   owner: "Sisters of Apostolic Carmel",
   regNo: "S.5944",
   centreNo: "S.6697",
-  motto: "Faith, Knowledge & Service",          // TODO: confirm official motto
-  phone: "+255 XXX XXX XXX",                    // TODO: real school phone
+  motto: "Seeking the Heights",
+  phone: "+255 764 652 388",
   email: "carmelsch.girls@gmail.com",
   admissionsEmail: "carmelsch.girls@gmail.com",
   poBox: "P.O. Box [0000], Arusha, Tanzania",   // TODO: real P.O. Box
@@ -41,13 +41,8 @@ const ICON = {
   x: '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.2 2h3.4l-7.4 8.5L23 22h-6.8l-5.3-7-6.1 7H1.4l7.9-9L1 2h7l4.8 6.4L18.2 2zm-1.2 18h1.9L7.1 4H5.1L17 20z"/></svg>'
 };
 
-/* School crest (simple placeholder emblem — replace with official logo file) */
-const CREST = `<svg class="brand__crest" viewBox="0 0 64 64" aria-hidden="true">
-  <path d="M32 3 56 11v20c0 15-10.5 25.5-24 30C18.5 56.5 8 46 8 31V11L32 3z" fill="#6b1d2a" stroke="#c9a24a" stroke-width="2.5"/>
-  <path d="M14 42l10-12 6 7 6-11 14 16" fill="none" stroke="#e8d39c" stroke-width="2.4" stroke-linejoin="round"/>
-  <path d="M32 12v14M25 18h14" stroke="#e8d39c" stroke-width="3" stroke-linecap="round"/>
-  <circle cx="32" cy="50" r="2.4" fill="#c9a24a"/>
-</svg>`;
+/* Official school logo */
+const CREST = `<img class="brand__crest" src="images/logo.jpg" alt="" width="52" height="52">`;
 
 function brandHTML() {
   return `<a href="index.html" class="brand" aria-label="${SCHOOL.fullName} — Home">

@@ -402,3 +402,10 @@ tbody tr:nth-child(even) { background: #fcfaf6; }
 .gallery__item:hover .photo img { transform: scale(1.04); }
 .lightbox__content .photo { aspect-ratio: auto; max-height: 82vh; background: #000; }
 .lightbox__content .photo img { position: static; width: 100%; height: auto; max-height: 82vh; object-fit: contain; }
+
+/* Official logo */
+img.brand__crest { border-radius: 50%; background: #fff; object-fit: contain; padding: 2px; box-shadow: 0 0 0 1px var(--line); }
+.footer img.brand__crest { box-shadow: none; }
+.header img.brand__crest { width: 66px; height: 66px; }
+.footer img.brand__crest { width: 84px; height: 84px; }
+@media (max-width: 560px) { .header img.brand__crest { width: 54px; height: 54px; } }
